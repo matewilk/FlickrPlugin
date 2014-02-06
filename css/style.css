@@ -1,0 +1,153 @@
+body {
+  background-color: #2c3e50; }
+
+main {
+  width: 910px;
+  margin: 0 auto; }
+
+hr {
+  height: 5px;
+  color: white;
+  background-color: white; }
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+.center {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+header {
+  height: 140px;
+  position: relative; }
+
+header .center {
+  height: 30px; }
+
+header .search {
+  float: right; }
+
+/*-----Slider display--------*/
+.slideshow {
+  margin: 0 auto; }
+
+.slideshow {
+  position: relative;
+  overflow: hidden; }
+
+.slideshow ul {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  list-style: none; }
+
+.slideshow ul li {
+  float: left;
+  height: 100%;
+  list-style: none; }
+
+.slideshow ul li img {
+  width: 910px;
+  height: 500px; }
+
+.slideshow .buttons {
+  margin-top: 25%;
+  position: absolute;
+  z-index: 999;
+  width: 100%; }
+
+.slideshow .buttons a {
+  width: 37px;
+  height: 37px;
+  background-image: url("../images/slider-arrows.png"); }
+
+.slideshow a.prev {
+  float: left;
+  background-position: right 0px; }
+
+.slideshow a.next {
+  float: right; }
+
+.slideshow a.prev:hover {
+  background-position: right -36px; }
+
+.slideshow a.next:hover {
+  background-position: left -36px; }
+
+.caption {
+  height: 45px;
+  position: relative;
+  width: 100%; }
+
+.caption .center {
+  width: 350px;
+  height: 25px;
+  text-align: center; }
+
+.caption span {
+  color: white;
+  font-size: 13px;
+  font-weight: bold; }
+
+/*-----Gallery display--------*/
+.photos {
+  display: block; }
+
+.photos ul {
+  list-style: none;
+  padding: 0; }
+
+.photos ul li {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 11px 20px 10px;
+  width: 165px;
+  height: 165px;
+  overflow: hidden; }
+  .photos ul li:nth-child(5n + 1) {
+    margin: 0 10px 20px 0; }
+  .photos ul li:nth-child(5n + 5) {
+    margin: 0 0 20px 10px; }
+
+.photos ul li img {
+  display: block;
+  width: 165px;
+  height: 165px; }
+
+.photos ul li a:hover {
+  opacity: 1.0; }
+
+.photos ul li a img {
+  border: 6px solid #e1d9ec; }
+
+/*-------Pagination----------*/
+.pagination {
+  float: right; }
+
+.pagination ul {
+  list-style: none; }
+
+.pagination ul li {
+  display: inline-block;
+  margin: 2px;
+  cursor: pointer;
+  border: 1px solid whilte;
+  color: white; }
+
+.active {
+  font-size: 1.2em; }
+
+/*----Preloader-------*/
+.preloader {
+  background: url(../images/495.GIF) center center no-repeat white;
+  display: inline-block; }
